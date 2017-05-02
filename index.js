@@ -21,7 +21,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
- response.json({status: 201, msg: "Periodo de prueba terminado, favor cancelar factura"});
+ response.json({status: 200, msg: "Periodo de prueba terminado, favor cancelar factura"});
 });
 
 app.listen(app.get('port'), function() {
