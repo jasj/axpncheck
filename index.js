@@ -21,7 +21,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
- response.sendStatus(200);
+ response.json({status: 200});
 });
 
 app.listen(app.get('port'), function() {
