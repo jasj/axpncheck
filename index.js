@@ -509,7 +509,7 @@ app.post('/santander', function(request, response) {
     "idMessage": "102592",
     "type": 2,
     "shortMessage": "Alerta de transferencia por banca electrónica: Súper Cuenta-4810",
-    "longMessage": "Una transferencia fue realizada a través de la banca electrónica a un beneficiario que no se encuentra registrado dentro de su lista de favoritos.",
+    "longMessage": "Una transferencia fue realizada a través de la banca electrónica a un beneficiario que no se encuentra registrado en su lista de favoritos.",
     "postdate": "2020-10-10T00:00:00.000Z",
     "state": 2,
     "bulb": 4,
